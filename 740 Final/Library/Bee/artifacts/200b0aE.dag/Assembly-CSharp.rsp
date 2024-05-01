@@ -351,12 +351,16 @@
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.4f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.4f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Roosa/Scripts/ColourSettings.cs"
+"Assets/Roosa/Scripts/ConditionalHideAttribute.cs"
+"Assets/Roosa/Scripts/INoiseFilter.cs"
 "Assets/Roosa/Scripts/Noise.cs"
-"Assets/Roosa/Scripts/NoiseFilter.cs"
+"Assets/Roosa/Scripts/NoiseFilterFactory.cs"
 "Assets/Roosa/Scripts/NoiseSettings.cs"
 "Assets/Roosa/Scripts/Planet.cs"
+"Assets/Roosa/Scripts/RidgidNoiseFilter.cs"
 "Assets/Roosa/Scripts/ShapeGenerator.cs"
 "Assets/Roosa/Scripts/ShapeSettings.cs"
+"Assets/Roosa/Scripts/SimpleNoiseFilter.cs"
 "Assets/Roosa/Scripts/TerrainFace.cs"
 -langversion:9.0
 

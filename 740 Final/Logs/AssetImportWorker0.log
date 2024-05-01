@@ -2128,3 +2128,97 @@ Received Import Request.
 Start importing Assets/Roosa/Scripts/NoiseSettings.cs using Guid(cb93c08a6b6474ee88aea31ace672652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '162b95d3b965fae97d271164d642abca') in 0.002005 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Trying to reload asset but can't find object on disk
+Trying to reload asset but can't find object on disk
+Trying to reload asset but can't find object on disk
+Begin MonoManager ReloadAssembly
+Thread 0x16efbf000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/roosamozoomdar/Documents/GitHub/voxel-generator/740 Final/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/roosamozoomdar/Documents/GitHub/voxel-generator/740 Final/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.687 seconds
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.585 seconds
+Domain Reload Profiling: 1272ms
+	BeginReloadAssembly (119ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (61ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (499ms)
+		LoadAssemblies (374ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (156ms)
+			TypeCache.Refresh (152ms)
+				TypeCache.ScanAssembly (142ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (586ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (175ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (27ms)
+			ProcessInitializeOnLoadAttributes (132ms)
+			ProcessInitializeOnLoadMethodAttributes (8ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3086 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.2 KB). Loaded Objects now: 3640.
+Memory consumption went from 259.9 MB to 259.9 MB.
+Total: 2.131791 ms (FindLiveObjects: 0.096834 ms CreateObjectMapping: 0.041708 ms MarkObjects: 1.960208 ms  DeleteObjects: 0.032584 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 984.408759 seconds.
+  path: Assets/Roosa/Scripts/ScriptableObjects/Shape.asset
+  artifactKey: Guid(bb563e90654574d4cb7d931456630f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Roosa/Scripts/ScriptableObjects/Shape.asset using Guid(bb563e90654574d4cb7d931456630f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8b55770ec81522d977a8b47487fa506') in 0.003741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 222.880332 seconds.
+  path: Assets/Roosa/Scripts/RidgidNoiseFilter.cs
+  artifactKey: Guid(6df1e3f71a80b46fc93110e183c897a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Roosa/Scripts/RidgidNoiseFilter.cs using Guid(6df1e3f71a80b46fc93110e183c897a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8680a5dcef3ba3e735c86b7d576398b0') in 0.011665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.930337 seconds.
+  path: Assets/Roosa/Scripts/SimpleNoiseFilter.cs
+  artifactKey: Guid(215d401461592457480caffbb6b62f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Roosa/Scripts/SimpleNoiseFilter.cs using Guid(215d401461592457480caffbb6b62f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58930e0236bb76a3234303c3ec46fa05') in 0.000292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
