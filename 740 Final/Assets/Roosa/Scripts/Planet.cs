@@ -26,6 +26,10 @@ public class Planet : MonoBehaviour {
     TerrainFace[] terrainFaces;
      
 
+    public void Start()
+    {
+        GeneratePlanet();
+    }
 	void Initialize()
     {
         shapeGenerator.UpdateSettings(shapeSettings);
