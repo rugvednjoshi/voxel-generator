@@ -30,6 +30,8 @@ Some changes by Sebastian Lague for use in a tutorial series.
  * -1.0 to +1.0, but there are no guarantees that all output values will exist within that range.
 */
 
+// Taken reference from Tutorial
+
 using System;
 public class Noise
 {
